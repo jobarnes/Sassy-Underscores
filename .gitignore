@@ -1,0 +1,42 @@
+node_modules
+.npm-debug.log
+tmp
+.sass-cache
+*.css.map
+
+# Exclude NetBeans files
+nbproject/
+
+# Exclude Espresso files
+*.esproj
+ 
+# Exclude the .htaccess file
+.htaccess
+ 
+# Exclude any CC source files
+.psd
+.ai
+ 
+# Exclude OS and editor files and folders
+*.esproj
+*.sublime-project
+*.sublime-workspace
+.cache
+.DS_Store
+.tmproj
+nbproject
+Thumbs.db
+_notes
+dwsync.xml
+ 
+# Exclude text files
+*.txt
+ 
+# Except read me
+!README.txt
+ 
+# Exclude log files
+*.log
+ 
+# Exclude fonts
+_fonts/ 
