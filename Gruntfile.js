@@ -14,7 +14,7 @@ module.exports = function (grunt) {
                     sourcemap: 'none'
                 },
                 files: {
-                    'compiled/style.css': 'compiled/style.scss'
+                    'compiled/style.css': 'sass/style.scss'
                 }
             },
             dist: {
@@ -23,7 +23,7 @@ module.exports = function (grunt) {
                     sourcemap: 'none'
                 },
                 files: {
-                    'compiled/style.css': 'compiled/style-min.scss'
+                    'compiled/style-min.css': 'sass/style.scss'
                 }
             }
         },
@@ -39,7 +39,7 @@ module.exports = function (grunt) {
         }
         
     });
-    
+    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.registerTask('default', ['watch']);
 };
