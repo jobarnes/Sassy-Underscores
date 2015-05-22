@@ -1,4 +1,75 @@
-$color__background-body: #efefef;
+/* mid greys */
+$light:  #EDECEB;
+$mid:    #5E5E5E;
+$deep:   #23282D;// #414042;
+
+
+/* warm greys */
+$charcoal:   #363332;
+$taupe:      #9A9590;
+
+$highlight: #C5DEE3;    // Pale blue, may need to be adjusted with new colours
+
+
+/* primary (middle)colours */
+
+$jojojazz:  #A52878;    // Rasberry fuschia #A0236F;
+$brewer:    #007891;    // Primary teal blue -- rgb(0,120,145)
+$prince:    #503269;    // Regal purple
+$gold:      #C89B2D;    // Golden yellow
+$jade:      #007974;    // Jade emerald green
+
+/* paler accents */
+   
+$betty:      #1E8CA0;   // turquoise teal -- rgb(30,140,160); #00849A
+$softsun:    #D7B469;   // soft gold
+
+/* deep accents */
+$darkjazz:   #8C1E69;   // deep raspberry fuchsia #8C0A64;
+$don:        #006478;   // deep teal blue -- rgb(0,100,120);
+$darkprince: #3C2855;
+
+
+/* background colours */
+$eggshell:  #F0ECE8;    // warmed white
+$sand:      #DED4CB;    // very warm pale grey
+$robinsegg: #BED2D7;    // -- rgb(190,210,215)
+$aqua:      #A6CBD2;    // retro blue
+
+
+/* text colours */
+$whitegold: #E6DCA5;    // pale yellow white gold -- rgb(230,220,165)
+$lilacmist: #CABAD8;
+$sweetprince: #785299;
+$mauvegold: #9E8D9D;
+
+
+$shaded: #efefef; 	// Pale grey 
+$magic:  #207EAA; 	// Blue 
+$fog:    #D7E2E8; 	// Pale blue 
+$mist:   #E5EDF0; 	// Palest blue 
+
+/* greys */
+$g0:     #f2f2f2;       // Palest grey
+$g05:    #efefef;
+$g10:    #eee;
+$g50:    #959595;
+$g60:    #7d7d7d;
+$g70:    #626262;
+$g75:    #555555;
+$g80:    #464646;
+$g85:    #363636;       // Deep grey
+
+/* @group Functions */
+$bg:     $light;
+$text:   $mid;
+$links:  $brewer;
+$accent: $jojojazz;
+/* @end */
+
+
+/* underscores */
+$color__background-body: #eee;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
@@ -8,9 +79,9 @@ $color__background-ins: #fff9c0;
 $color__text-screen: #21759b;
 $color__text-input: #666;
 $color__text-input-focus: #111;
-$color__link: royalblue;
-$color__link-visited: purple;
-$color__link-hover: midnightblue;
+$color__link: $jojojazz;
+$color__link-visited: $brewer;
+$color__link-hover: $jade;
 $color__text-main: #404040;
 
 $color__border-button: #ccc #ccc #bbb;

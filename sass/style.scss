@@ -1,4 +1,4 @@
-/*
+/*!
 Theme Name: Sassy Underscores
 Theme URI: http://underscores.me/
 Author: Jo Barnes
@@ -105,3 +105,5 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 --------------------------------------------------------------*/
 @import "media/media";
+
+@import "layout/flex";
